@@ -9,9 +9,15 @@ export function renderHeader(person) {
         </div>
       </div>
       <nav class="top-actions" aria-label="Main actions">
-        <button class="palette-toggle" type="button" aria-label="Switch color palette">
-          Switch Palette
-        </button>
+        <label class="palette-control" aria-label="Switch color palette">
+          <select class="palette-toggle">
+          </select>
+          <span class="palette-arrow" aria-hidden="true">
+            <svg viewBox="0 0 20 20" focusable="false" aria-hidden="true">
+              <path d="M5 7.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+        </label>
       </nav>
     </header>
   `;

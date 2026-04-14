@@ -1,3 +1,5 @@
+const heroImage = new URL("../../Assets/image.png", import.meta.url).href;
+
 function renderMetric(metric) {
   return `
     <article class="metric-card">
@@ -35,7 +37,9 @@ export function renderHomePage(content) {
       </div>
 
       <div class="hero-stage reveal reveal-delay-1" aria-label="Abstract creative composition">
-        <div class="stage-ring"></div>
+        <div class="stage-ring">
+          <img class="stage-image" src="${heroImage}" alt="Portrait of Medha Saraiya" />
+        </div>
         <div class="stage-caption">
           <strong>${content.person.tagline}</strong>
           <span>${content.person.mission}</span>
@@ -50,7 +54,7 @@ export function renderHomePage(content) {
     <section class="section-heading reveal reveal-delay-1">
       <div>
         <p class="section-kicker">What I bring</p>
-        <h2>Design that feels calm, precise, and editorial.</h2>
+        <h2>Calm, human-centered work.</h2>
       </div>
     </section>
 

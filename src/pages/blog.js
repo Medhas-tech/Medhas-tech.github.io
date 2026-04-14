@@ -21,10 +21,10 @@ export function renderBlogPage(content) {
     <section class="page-banner reveal">
       <div>
         <p class="section-kicker">Blog</p>
-        <h1>Notes on design, process, and creative systems.</h1>
+        <h1>Short notes on care, art, and building.</h1>
       </div>
       <p class="page-banner-copy">
-        A more personal layer of the site, built as an editorial space for thinking out loud about product design, visual rhythm, and making work with intention.
+        Practical reflections from clinical work, creative practice, and entrepreneurship.
       </p>
     </section>
 
@@ -37,7 +37,7 @@ export function renderBlogPage(content) {
           <span>${featured.date}</span>
           <span>${featured.readTime}</span>
         </div>
-        <a class="featured-link" href="#/blog/${featured.slug}">Read the featured essay</a>
+        <a class="featured-link" href="#/blog/${featured.slug}">Read featured</a>
       </div>
       <div class="featured-visual" aria-hidden="true">
         <div class="featured-shape featured-shape-a"></div>

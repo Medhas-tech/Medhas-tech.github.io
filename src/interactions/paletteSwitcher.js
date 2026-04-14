@@ -8,10 +8,15 @@ function applyPalette(palette) {
 
 export function initPaletteSwitcher(palettes) {
   const toggleButton = document.querySelector(".palette-toggle");
+  const paletteControl = document.querySelector(".palette-control");
 
-  if (!toggleButton || palettes.length === 0) {
+  if (!toggleButton || !paletteControl || palettes.length === 0) {
     return;
   }
+
+  toggleButton.innerHTML = palettes
+    .map((palette) => `<option value="${palette.id}">${palette.name}</option>`)
+    .join("");
 
   const saved = localStorage.getItem(STORAGE_KEY);
   let activeIndex = palettes.findIndex((item) => item.id === saved);
@@ -21,13 +26,17 @@ export function initPaletteSwitcher(palettes) {
   }
 
   applyPalette(palettes[activeIndex]);
-  toggleButton.textContent = `Palette: ${palettes[activeIndex].name}`;
+  toggleButton.value = palettes[activeIndex].id;
 
-  toggleButton.addEventListener("click", () => {
-    activeIndex = (activeIndex + 1) % palettes.length;
-    const next = palettes[activeIndex];
+  toggleButton.addEventListener("change", (event) => {
+    const next = palettes.find((palette) => palette.id === event.target.value);
+
+    if (!next) {
+      return;
+    }
+
+    activeIndex = palettes.indexOf(next);
     applyPalette(next);
     localStorage.setItem(STORAGE_KEY, next.id);
-    toggleButton.textContent = `Palette: ${next.name}`;
   });
 }

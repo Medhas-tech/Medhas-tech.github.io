@@ -1,193 +1,193 @@
 export const siteContent = {
   person: {
-    name: "Medha Saraiya",
-    role: "Creative Product Designer",
+    name: "Medha Saraiya, RPN",
+    role: "Artist ○ HealthCare Professional ○ Entrepreneur ○ Innovator",
     description:
-      "I design expressive digital experiences with a strong point of view, balancing strategic clarity, editorial depth, and bold visual systems.",
-    tagline: "Editorial systems with a soft pulse.",
+      "I blend healthcare, art, and entrepreneurship to build work that supports healing and real-world change.",
+    tagline: "Care-led creativity, built to scale.",
     mission:
-      "Build interfaces that feel intentional, tactile, and alive across every screen.",
+      "Design human-centered services and ventures that improve access, dignity, and outcomes.",
     linkedin: "https://linkedin.com/in/medha-saraiya",
     statement:
-      "I blend color, structure, and emotion into digital work that feels alive, confident, and unmistakably modern.",
+      "Innovation works best when empathy and evidence move together.",
   },
   pillars: [
-    "Brand + Product Thinking",
-    "UX Storytelling",
-    "Creative Direction",
-    "Visual Systems",
+    "Clinical Empathy",
+    "Creative Practice",
+    "Entrepreneurial Leadership",
+    "Innovation for Impact",
   ],
   metrics: [
     {
-      value: "12+",
-      label: "creative systems",
-      body: "Identity, product, and editorial interfaces shaped into coherent visual worlds.",
-    },
-    {
-      value: "3x",
-      label: "deeper than static",
-      body: "A modular site with routing, stateful theme switching, and content-driven rendering.",
+      value: "4",
+      label: "disciplines integrated",
+      body: "Art, healthcare, entrepreneurship, and innovation in one integrated practice.",
     },
     {
       value: "1",
-      label: "personal point of view",
-      body: "Art direction, typography, and motion tuned for a confident digital presence.",
+      label: "patient-first lens",
+      body: "Every idea is tested against one question: does this help real people?",
+    },
+    {
+      value: "360",
+      label: "systems perspective",
+      body: "From bedside realities to business models, I design for the full ecosystem.",
     },
   ],
   principles: [
     {
-      title: "Structure first",
-      body: "Each page is designed as a system: content data, layout modules, and interaction layers work together cleanly.",
+      title: "Lead with compassion",
+      body: "Clinical work taught me to listen deeply and design with humility.",
     },
     {
-      title: "Color with discipline",
-      body: "The palette is vibrant but controlled, inspired by neo-brutalist references without leaning into chaos.",
+      title: "Create with intention",
+      body: "Art gives language to emotion and meaning that data alone cannot hold.",
     },
     {
-      title: "Motion with purpose",
-      body: "Subtle reveals, layered panels, and responsive transitions add depth without turning the site into noise.",
+      title: "Build for scale",
+      body: "Entrepreneurship turns strong ideas into sustainable offerings.",
     },
   ],
   blog: {
     featured: {
-      slug: "editorial-websites-for-personal-brands",
-      title: "Why I like editorial websites for personal brands",
+      slug: "where-care-art-and-business-meet",
+      title: "Where care, art, and enterprise meet",
       excerpt:
-        "A personal site should read like a miniature publication: a clear story, a confident point of view, and enough variation that each section earns its place.",
+        "What changes when compassion, creativity, and business are designed as one practice.",
       date: "Apr 2026",
       readTime: "6 min read",
-      category: "Thinking",
-      tags: ["Editorial", "Brand"],
+      category: "Leadership",
+      tags: ["Healthcare", "Innovation"],
       callout:
-        "The strongest personal sites feel like an edited magazine spread: deliberate pacing, memorable visuals, and a point of view that stays consistent from start to finish.",
+        "When care and venture thinking align, solutions become both humane and durable.",
       body: {
         intro:
-          "I like websites that feel like an essay, not a form. When a personal site is laid out editorially, the work has room to breathe and the designer's voice becomes clearer.",
+          "Healthcare taught me trust, art taught me nuance, and entrepreneurship taught me execution.",
         sections: [
           {
-            title: "Start with a thesis",
+            title: "Compassion is strategy",
             body:
-              "A good portfolio should answer one question immediately: what kind of creative thinker is this person? That answer should shape hierarchy, motion, and the amount of visual tension on the page.",
+              "Empathy is strategic. It reduces friction and improves long-term outcomes.",
           },
           {
-            title: "Let content lead",
+            title: "Creativity improves care",
             body:
-              "The page structure should be derived from the story, not squeezed into a pre-made portfolio template. That makes it easier to create pages that feel authored instead of assembled.",
+              "Creative methods reframe problems and make care experiences more human.",
           },
           {
-            title: "Use restraint as a design tool",
+            title: "Execution creates impact",
             body:
-              "Color still matters, but it works better when used as a highlight rather than an override. A slightly calmer palette gives the stronger elements more presence.",
+              "Entrepreneurial discipline turns intention into systems that can scale.",
           },
         ],
         outro:
-          "That is the goal of this site: make the interface feel like an experience with chapters, not a static sheet of links.",
+          "My work lives at that intersection: emotionally intelligent and practical.",
       },
     },
     posts: [
       {
-        slug: "portfolio-without-the-template-path",
-        category: "Process",
-        title: "Designing a portfolio without using the obvious template path",
+        slug: "art-as-a-clinical-strength",
+        category: "Healthcare",
+        title: "Why artistic practice makes me a better healthcare professional",
         excerpt:
-          "How to avoid generic layouts by using content hierarchy, purposeful rhythm, and a more editorial sense of pacing.",
+          "How artistic observation strengthens patient communication and clinical decisions.",
         date: "Apr 10, 2026",
         readTime: "5 min read",
-        tags: ["Layout", "Hierarchy"],
+        tags: ["Clinical Care", "Communication"],
         callout:
-          "When the layout is less expected, the site feels more like a studio presence and less like a résumé page.",
+          "Art sharpens attention and empathy, two capabilities that directly improve the quality of care.",
         body: {
           intro:
-            "I started this site with a simple rule: no default portfolio scaffolding. The page should carry a point of view as soon as the user lands on it.",
+            "Art trains us to notice nuance. In clinical settings, that same attentiveness can reveal concerns that standard checklists miss.",
           sections: [
             {
-              title: "Break the default rhythm",
+              title: "Observation beyond symptoms",
               body:
-                "A portfolio does not need the same three-section formula everyone else uses. Instead, let spacing, scale, and transitions create a more memorable read.",
+                "Posture, tone, hesitation, and environment often tell us as much as reported symptoms.",
             },
             {
-              title: "Compose for scanning and pausing",
+              title: "Story as a care tool",
               body:
-                "The best screens work at two speeds. They are easy to scan at a glance, but they also reward a slower pass with details and smaller notes.",
+                "Patients make sense of illness through narrative. Meeting them in that narrative builds trust and shared understanding.",
             },
             {
-              title: "Give each page a job",
+              title: "Presence as intervention",
               body:
-                "The home page introduces the voice, the blog deepens it, and the art section adds atmosphere. That separation keeps the system coherent.",
+                "Sometimes the most effective intervention begins with feeling fully seen and heard.",
             },
           ],
           outro:
-            "That kind of structure is more durable than a quick visual trick, because it keeps the site useful as the work evolves.",
+            "Creative practice does not compete with clinical rigor. It deepens it.",
         },
       },
       {
-        slug: "color-palettes-loud-but-calm",
-        category: "Visual Systems",
-        title: "Building color palettes that feel loud but still calm",
+        slug: "entrepreneurship-in-healthcare-with-integrity",
+        category: "Entrepreneurship",
+        title: "Building healthcare ventures without losing integrity",
         excerpt:
-          "A short framework for using saturated colors while keeping the interface readable, elevated, and structurally grounded.",
+          "A simple framework for balancing mission, sustainability, and outcomes.",
         date: "Apr 06, 2026",
         readTime: "4 min read",
-        tags: ["Color", "Branding"],
+        tags: ["Venture", "Ethics"],
         callout:
-          "Color becomes more sophisticated when the saturation is balanced by enough white space and strong typography.",
+          "Growth matters, but in healthcare, trust and ethics are non-negotiable design constraints.",
         body: {
           intro:
-            "I wanted the palette to feel expressive without shouting. The trick is not to remove color, but to make it behave in a more controlled way.",
+            "Entrepreneurship in health spaces carries unusual responsibility. The goal is not just scale; it is safe, equitable, and meaningful impact.",
           sections: [
             {
-              title: "Choose one loud note",
+              title: "Start with the care outcome",
               body:
-                "Every palette benefits from a single accent that draws attention. Too many accents competing for dominance can flatten the whole composition.",
+                "Business models should be designed around patient benefit first, then optimized for operational durability.",
             },
             {
-              title: "Let surfaces do the calming",
+              title: "Measure what matters",
               body:
-                "Soft backgrounds, subtle gradients, and pale highlight fields help intense color feel intentional rather than noisy.",
+                "Track quality, access, and user trust alongside revenue and growth metrics.",
             },
             {
-              title: "Use contrast, not chaos",
+              title: "Design for accountability",
               body:
-                "The interface should still feel dynamic, but the contrast comes from hierarchy and shape, not from pushing every hue to maximum saturation.",
+                "Transparent communication and feedback loops protect both people and the mission.",
             },
           ],
           outro:
-            "That balance is what gives a site personality without making it exhausting to look at.",
+            "Sustainable ventures are possible when clinical values remain visible at every decision point.",
         },
       },
       {
-        slug: "personal-site-as-brand-universe",
-        category: "Storytelling",
-        title: "Turning a personal site into a small brand universe",
+        slug: "innovation-grounded-in-human-reality",
+        category: "Innovation",
+        title: "Innovation grounded in real human realities",
         excerpt:
-          "Treat the portfolio as a narrative system instead of a resume page. Then every block can contribute to the same mood.",
+          "How to innovate with real constraints and lived experience in mind.",
         date: "Mar 28, 2026",
         readTime: "7 min read",
-        tags: ["Narrative", "Product"],
+        tags: ["Systems", "Human-Centered"],
         callout:
-          "A personal brand becomes more memorable when every section feels connected by mood, typography, and intent.",
+          "Innovation succeeds when it meets people where they actually are, not where we assume they should be.",
         body: {
           intro:
-            "A good personal site does not just list accomplishments. It creates a small world where the work, the voice, and the aesthetic all reinforce the same identity.",
+            "True innovation is less about novelty and more about fit. It should reduce burden, increase dignity, and support better choices.",
           sections: [
             {
-              title: "Treat the site like a system",
+              title: "Co-design with stakeholders",
               body:
-                "Pages should relate to one another through shared spacing, recurring visual motifs, and an overall emotional tone.",
+                "Patients, families, and frontline teams should shape solutions from day one.",
             },
             {
-              title: "Make navigation meaningful",
+              title: "Prototype in context",
               body:
-                "Instead of treating the navigation as utility only, use it to reveal how the site is organized as a narrative experience.",
+                "Testing ideas in real-world environments reveals friction that lab conditions hide.",
             },
             {
-              title: "Keep the voice consistent",
+              title: "Iterate responsibly",
               body:
-                "A strong brand universe does not need every page to look identical, but it should always feel like the same person made it.",
+                "In health-adjacent systems, speed matters, but safety and clarity matter more.",
             },
           ],
           outro:
-            "That consistency is what helps a portfolio stay memorable after the first scroll.",
+            "My innovation philosophy: practical, ethical, and designed for lasting human value.",
         },
       },
     ],
@@ -199,33 +199,33 @@ export const siteContent = {
       label: "Series 01",
       year: "2026",
       title: "Soft Geometry",
-      medium: "Digital poster study",
+      medium: "Mixed media digital artwork",
       dimensions: "1200 × 1600",
       description:
-        "Rounded forms, stacked shadows, and warm contrast designed like a poster but laid out like an interface.",
-      palette: "Warm coral, pale gold, and a quiet cream base to keep the composition buoyant.",
+        "A study in gentle structure inspired by resilience and healing.",
+      palette: "Muted rose, warm parchment, and deep plum to suggest calm strength.",
       body: {
         intro:
-          "This piece is built from round forms and stacked surfaces, but the edges stay controlled so the composition does not drift into noise.",
+          "This piece explores how soft forms can still communicate power. It reflects the emotional steadiness often required in caregiving roles.",
         layers: [
           {
-            title: "Layer one",
+            title: "Containment",
             body:
-              "A pale background anchors the piece and gives the colored forms enough breathing room.",
+              "Rounded boundaries represent psychological safety and therapeutic trust.",
           },
           {
-            title: "Layer two",
+            title: "Breath",
             body:
-              "The main circle introduces a soft focal point, while the nearby blocks keep the eye moving through the frame.",
+              "Open space between shapes creates a sense of pause, reflection, and recovery.",
           },
           {
-            title: "Layer three",
+            title: "Balance",
             body:
-              "Shadows and border treatment add depth so the image feels tactile instead of flat.",
+              "Warm and cool tones coexist to symbolize clinical focus and human tenderness.",
           },
         ],
         outro:
-          "The result is a study in warmth and restraint, where color supports form instead of overpowering it.",
+          "The composition is intentionally gentle, because gentleness can be a form of strength.",
       },
     },
     {
@@ -234,33 +234,33 @@ export const siteContent = {
       label: "Series 02",
       year: "2026",
       title: "Loud Calm",
-      medium: "Poster composition",
+      medium: "Digital expression study",
       dimensions: "1080 × 1440",
       description:
-        "A balance of tension and clarity: saturated accents disciplined by clear spacing and strong borders.",
-      palette: "Cool aqua, muted lime, and a restrained orange accent with sharper structure.",
+        "Emotional intensity held inside clinical composure and entrepreneurial clarity.",
+      palette: "Teal, warm clay, and softened ivory to capture focus under pressure.",
       body: {
         intro:
-          "This piece explores contrast without pushing saturation too far. The visual energy comes from overlap and shape placement.",
+          "Healthcare and business both demand composure in high-stakes moments. This piece interprets that tension visually.",
         layers: [
           {
-            title: "Geometry as choreography",
+            title: "Tension",
             body:
-              "The forms are arranged to feel almost like they are moving across a stage, but the framing keeps them composed.",
+              "Intersecting forms represent competing priorities that must be held at once.",
           },
           {
-            title: "Color with hierarchy",
+            title: "Composure",
             body:
-              "The dominant cool field is softened by pale highlights and one warmer note, creating a clear center of gravity.",
+              "Stable framing and controlled contrast reinforce steadiness and decision quality.",
           },
           {
-            title: "Border as structure",
+            title: "Momentum",
             body:
-              "Bold borders hold the composition together and make the piece feel designed rather than decorative.",
+              "Directional color movement suggests progress without chaos.",
           },
         ],
         outro:
-          "It is energetic, but the energy is guided by structure, which is why it remains easy to sit with.",
+          "It is a portrait of calm leadership in dynamic environments.",
       },
     },
     {
@@ -269,38 +269,38 @@ export const siteContent = {
       label: "Series 03",
       year: "2026",
       title: "Layer Study",
-      medium: "Color field experiment",
+      medium: "Conceptual color composition",
       dimensions: "1400 × 1400",
       description:
-        "A composition experiment that uses depth, texture, and color fields to suggest motion without clutter.",
-      palette: "Lavender, blush, and gold with softened opacity to avoid overpowering the structure.",
+        "A visual map of identity across care, creativity, enterprise, and innovation.",
+      palette: "Dusty lavender, antique gold, and graphite tones for depth with restraint.",
       body: {
         intro:
-          "This artwork is the loosest of the three, but it still obeys a framework of layers and spacing.",
+          "This work treats identity as layered rather than singular. Each layer represents a different professional lens that informs the others.",
         layers: [
           {
-            title: "Soft overlap",
+            title: "Care layer",
             body:
-              "The background gradients add depth without making the piece feel heavy.",
+              "Human-centered values anchor the composition and set ethical direction.",
           },
           {
-            title: "Layer drift",
+            title: "Creative layer",
             body:
-              "Circular and rectangular forms overlap to create movement, but their colors stay within the same tonal family.",
+              "Experimental movement introduces possibility, interpretation, and meaning.",
           },
           {
-            title: "Focus through restraint",
+            title: "Venture layer",
             body:
-              "Instead of relying on high contrast alone, the composition uses spacing and proportion to create emphasis.",
+              "Structured edges and rhythm stand for execution, sustainability, and scale.",
           },
         ],
         outro:
-          "That restraint keeps the piece open and airy, which is what gives it a more refined presence.",
+          "Together, the layers form one integrated practice rather than separate roles.",
       },
     },
   ],
   artLab:
-    "These palettes are deliberately graphic: expressive enough to feel alive, softened enough to stay elegant, and flexible enough to support a personal brand, blog, and gallery in one system.",
+    "Heritage tones with contemporary accents, reflecting tradition, compassion, and forward-thinking practice.",
   palettes: [
     {
       id: "sunset-pop",

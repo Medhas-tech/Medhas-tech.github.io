@@ -17,10 +17,10 @@ export function renderArtPage(content) {
     <section class="page-banner reveal">
       <div>
         <p class="section-kicker">Art</p>
-        <h1>Color studies and playful compositions.</h1>
+        <h1>Quiet studies in color and form.</h1>
       </div>
       <p class="page-banner-copy">
-        This page turns the inspiration from the reference images into original abstract compositions: bold blocks, layered shadows, and polished contrast.
+        Abstract pieces shaped by care, clarity, and restraint.
       </p>
     </section>
 
@@ -31,7 +31,7 @@ export function renderArtPage(content) {
     <section class="art-lab reveal reveal-delay-2">
       <div class="art-lab-copy">
         <p class="section-kicker">Palette Lab</p>
-        <h2>Elegant saturation with a tactile, poster-like edge.</h2>
+        <h2>Heritage tones with modern accents.</h2>
         <p>${content.artLab}</p>
       </div>
       <div class="palette-board" aria-hidden="true">
